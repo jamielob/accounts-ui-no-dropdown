@@ -1,5 +1,8 @@
 if (Meteor.isClient) {
   Template.loginButtons.rendered = function() {
-    Accounts._loginButtonsSession.set('dropdownVisible', true);
+    Deps.autorun(function(){
+    	Accounts._loginButtonsSession.get('dropdownVisible');
+    	Accounts._loginButtonsSession.set('dropdownVisible', true);	
+	});
   }
 }
