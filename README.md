@@ -1,7 +1,7 @@
 accounts-ui-no-dropdown
 =======================
 
-For use with accounts-ui or accounts-ui-unstyled.  Removes the dropdown functionality, so that the login box is always displayed.
+Meteor package for use with accounts-ui or accounts-ui-unstyled.  Removes the dropdown functionality, so that the login box is always displayed.
 
 Installation
 ------------
