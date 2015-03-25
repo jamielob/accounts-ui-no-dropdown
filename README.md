@@ -8,6 +8,6 @@ Installation
 
 After adding accoounts-ui or accoutns-ui-unstyled to your project, simply add accounts-ui-no-dropdown.
 
-<code>meteor add accounts-ui-no-dropdown</code>
+<code>meteor add jamielob:accounts-ui-no-dropdown</code>
 
 When you add {{> loginButtons}} to your project, it will now show the login form by default, instead of the dropdown.
