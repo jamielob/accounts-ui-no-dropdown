@@ -1,6 +1,6 @@
 Package.describe({
   name: 'jamielob:accounts-ui-no-dropdown',
-  version: '1.0.1',
+  version: '1.0.2',
   // Brief, one-line summary of the package.
   summary: 'Removes the dropdown functionality in accounts-ui or accounts-ui-unstyled',
   // URL to the Git repository containing the source code for this package.
